@@ -1,4 +1,4 @@
-module clock_divider #(FREQ = 100) (
+module clock_divider #(parameter FREQ = 1000) (
 	input clk, rst,
 	output reg clk_div
 );

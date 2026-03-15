@@ -9,7 +9,7 @@ module cronometer(
 // Definir variable para senal de reloj dividida
 wire clk_1ms;
 
-// Produce una senal de reloj de 100 Hz (1 ms o 0.01 s)
+// Produce una senal de reloj de 1000 Hz (1 ms o 0.01 s)
 clock_divider clk_div_1ms(
 	.clk(clk),
 	.rst(rst),
@@ -19,7 +19,7 @@ clock_divider clk_div_1ms(
 
 // Definir variables con la cuenta del cronometro
 wire [12:0] sec;
-wire [5:0] ms;
+wire [6:0] ms;
 
 // Cuenta de 1 milisegundo
 counter count_1ms(
@@ -27,7 +27,7 @@ counter count_1ms(
 	.rst(rst),
 	.enable(enable),
 	.sec(sec),
-	.ms(ms),
+	.ms(ms)
 );
 
 
@@ -38,7 +38,7 @@ bcd_cronometer cronometer_disp(
 	.s_un(s_un),
 	.s_de(s_de),
 	.ms_un(ms_un),
-	.ms_de(ms_de),
+	.ms_de(ms_de)
 );
 
 

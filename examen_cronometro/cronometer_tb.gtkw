@@ -1,0 +1,28 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Sun Mar 15 01:36:56 2026
+[*]
+[dumpfile] "/Users/ricky/Documents/GitHub/practicas-te2002b/examen_cronometro/cronometer_tb.vcd"
+[dumpfile_mtime] "Sun Mar 15 01:35:15 2026"
+[dumpfile_size] 5258092584
+[savefile] "/Users/ricky/Documents/GitHub/practicas-te2002b/examen_cronometro/cronometer_tb.gtkw"
+[timestart] 0
+[size] 1440 842
+[pos] -1 -1
+*-38.497166 386000000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] cronometer_tb.
+[treeopen] cronometer_tb.DUT.
+[sst_width] 253
+[signals_width] 128
+[sst_expanded] 1
+[sst_vpaned_height] 243
+@28
+cronometer_tb.clk
+cronometer_tb.rst
+cronometer_tb.enable
+@24
+cronometer_tb.DUT.cronometer_disp.ms[6:0]
+@25
+cronometer_tb.DUT.cronometer_disp.seconds[5:0]
+[pattern_trace] 1
+[pattern_trace] 0

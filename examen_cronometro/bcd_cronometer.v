@@ -1,6 +1,6 @@
 module bcd_cronometer(
 	input [12:0] sec, // 0-5999 milisegundos
-	input [5:0] ms, // 0-59 milisegundos
+	input [6:0] ms, // 0-59 milisegundos
 	output [6:0] s_un, s_de,
 	output [6:0] ms_un, ms_de
 );

@@ -3,7 +3,7 @@ module counter(
 	input rst,
 	input enable,			 // Para parar o reanudar la cuenta
 	output reg [12:0] sec,
-	output reg [5:0] ms	 // unidad de la cuenta en milisegundos
+	output reg [6:0] ms	 // unidad de la cuenta en milisegundos
 );
 
 // Logica para el contador de milisegundos
